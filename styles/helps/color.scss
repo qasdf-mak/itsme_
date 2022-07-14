@@ -1,0 +1,289 @@
+// 字体颜色
+.color-white {
+  color: #fff !important;
+}
+
+.color-black {
+  color: #000 !important;
+}
+
+.color-main1 {
+  color: $main-one !important;
+}
+
+.color-main2 {
+  color: $main-two !important;
+}
+
+.color-main3 {
+  color: $main-three !important;
+}
+
+.color-main4 {
+  color: $main-four !important;
+}
+
+.color-main5 {
+  color: $main-six !important;
+}
+
+.color-main6 {
+  color: $main-five !important;
+}
+
+.color-deep {
+  color: $deep !important;
+}
+
+.color-middle {
+  color: $middle !important;
+}
+
+.color-shallow {
+  color: $shallow !important;
+}
+.color-syzx {
+  color: $assist-syzx !important;
+}
+
+.color-assist1{
+	color: $assist-1 !important;
+}
+.color-aaaaaa{
+	color: #AAAAAA !important;
+}
+.color-bbbbbb{
+	color: $bbbbbb !important;
+}
+.color-999999{
+	color: #999999 !important;
+}
+
+.color-eeeeee{
+	color: #eeeeee !important;
+}
+
+.color-666666{
+	color: #666666 !important;
+}
+
+
+
+
+// 背景色
+.bg-shallow {
+  background: $shallow !important;
+}
+
+.bg-divider {
+  background: $divider !important;
+}
+
+.bg-gradient {
+  background: linear-gradient(to bottom, #F18AAE, #F37E9A) !important;
+}
+
+.bg-1 {
+  background: $main-four !important;
+}
+
+.bg-2 {
+  background: $main-five !important;
+}
+
+.bg-black {
+  background-color: #000 !important;
+}
+
+.bg-white {
+  background-color: #fff !important;
+}
+
+.bg-main {
+  background-color: $bg !important;
+}
+
+.bg-none {
+  background: none !important;
+}
+
+// 投影
+
+.box-shadow {
+  box-shadow: 0 0 20rpx #f8f8f8 !important;
+}
+
+.box-shadow-login {
+  box-shadow: 0 0 20rpx rgba(0, 0, 0, 0.10) !important;
+}
+
+.box-shadow-index {
+  box-shadow: 0 0 18rpx rgba(0, 0, 0, 0.10) !important;
+}
+
+.box-shadow-face {
+  box-shadow: 0 0 18rpx rgba(132, 131, 131, 0.2) !important;
+}
+
+.box-shadow-1 {
+  box-shadow: 0 0 16rpx rgba(0, 0, 0, 0.08) !important;
+}
+
+// 边框线
+.line-color-1 {
+  border-color: $divider !important;
+}
+.line-color-2 {
+  border-color: #EEEEEE !important;
+}
+.line-color-3 {
+  border-color: #dddddd !important;
+}
+.line-color-4 {
+  border-color: #ffffff !important;
+}
+
+// 渐变背景
+.login-top-bg{
+	background: linear-gradient(to right bottom, #F7BBA3, #F3A571) !important;
+}
+
+// 新版
+// 字体颜色
+.color-itsme-1{
+	color: $itsme-1 !important;
+}
+.color-itsme-2{
+	color: $itsme-2 !important;
+}
+.color-itsme-3{
+	color: $itsme-3 !important;
+}
+.color-itsme-4{
+	color: $itsme-4 !important;
+}
+.color-itsme-5{
+	color: $itsme-5 !important;
+}
+.color-itsme-6{
+	color: $itsme-6 !important;
+}
+.color-itsme-7{
+	color: $itsme-7 !important;
+}
+.color-itsme-8{
+	color: $itsme-8 !important;
+}
+.color-itsme-9{
+	color: $itsme-9 !important;
+}
+.color-itsme-10{
+	color: $itsme-10 !important;
+}
+.color-itsme-11{
+	color: $itsme-11 !important;
+}
+.color-itsme-12{
+	color: $itsme-12 !important;
+}
+.color-itsme-13{
+	color: $itsme-13 !important;
+}
+.color-itsme-14{
+	color: $itsme-14 !important;
+}
+.color-itsme-15{
+	color: $itsme-15 !important;
+}
+.color-itsme-16{
+	color: #F8B9DC !important;
+}
+.color-itsme-17{
+	color: $itsme-16 !important;
+}
+.color-itsme-18{
+	color: $itsme-17 !important;
+}
+// 背景
+.bg-itsme-1{
+	background: $itsme-1 !important;
+}
+.bg-itsme-2{
+	background: $itsme-2 !important;
+}
+.bg-itsme-3{
+	background: $itsme-3 !important;
+}
+.bg-itsme-4{
+	background: $itsme-4 !important;
+}
+.bg-itsme-5{
+	background: $itsme-5 !important;
+}
+.bg-itsme-6{
+	background: $itsme-6 !important;
+}
+.bg-itsme-7{
+	background: $itsme-7 !important;
+}
+.bg-itsme-8{
+	background: $itsme-8 !important;
+}
+.bg-itsme-9{
+	background: $itsme-9 !important;
+}
+.bg-itsme-10{
+	background: $itsme-10 !important;
+}
+.bg-itsme-11{
+	background: $itsme-11 !important;
+}
+.bg-itsme-12{
+	background: $itsme-12 !important;
+}
+.bg-itsme-13{
+	background: $itsme-13 !important;
+}
+.bg-itsme-14{
+	background: $itsme-14 !important;
+}
+.bg-itsme-15{
+	background: $itsme-15 !important;
+}
+.bg-itsme-16{
+	background: #F8B9DC !important;
+}
+.bg-itsme-17{
+	background: $itsme-16 !important;
+}
+.bg-itsme-18{
+	background: $itsme-17 !important;
+}
+.bg-itsme-19{
+	background: $itsme-18 !important;
+}
+// 边框线
+.line-itsme-1 {
+  border-color: #999999 !important;
+}
+.line-itsme-2 {
+  border-color: #393838 !important;
+}
+.line-itsme-3 {
+  border-color: #dddddd !important;
+}
+.line-itsme-4 {
+  border-color: #ffffff !important;
+}
+.line-itsme-5 {
+  border-color: $itsme-2 !important;
+}
+.line-itsme-6 {
+  border-color: #F8B9DC !important;
+}
+.line-itsme-7 {
+  border-color: $itsme-1 !important;
+}
+.line-itsme-8 {
+  border-color: $itsme-4 !important;
+}

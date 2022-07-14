@@ -1,0 +1,296 @@
+{
+    "name" : "是我啊",
+    "appid" : "__UNI__69EDF6D",
+    "description" : "",
+    "versionName" : "1.4.9",
+    "versionCode" : 49,
+    "transformPx" : false,
+    /* 5+App特有相关 */
+    "app-plus" : {
+        "usingComponents" : true,
+        "nvueCompiler" : "uni-app",
+        "compilerVersion" : 3,
+        "splashscreen" : {
+            "alwaysShowBeforeRender" : false,
+            "waiting" : false,
+            "autoclose" : true,
+            "delay" : 0
+        },
+        "privacy" : {
+            "prompt" : "template", //可取值template、custom、none  
+            "template" : {
+                //prompt取值为template时有效，用于配置模板提示框上显示的内容  
+                "title" : "温馨提示",
+                "message" : "欢迎使用 是我啊App,在你使用 是我啊App前，请您认真阅读并了解<a href='http://agreement.shiwoaapp.com/user.txt'>《用户协议》</a>和<a href='http://agreement.shiwoaapp.com/privacy.txt'>《隐私政策》</a>，并且年满18岁，点击同意即表示您已阅读并同意全部条款。",
+                "buttonAccept" : "同意",
+                "buttonRefuse" : "暂不同意"
+            }
+        },
+        "compatible" : {
+            "ignoreVersion" : true //true表示忽略版本检查提示框，HBuilderX1.9.0及以上版本支持  
+        },
+        /* 模块配置 */
+        "modules" : {
+            "Geolocation" : {},
+            "Maps" : {},
+            "Messaging" : {},
+            "Payment" : {},
+            "VideoPlayer" : {},
+            "Push" : {},
+            "Share" : {}
+        },
+        /* 应用发布信息 */
+        "distribute" : {
+            /* android打包配置 */
+            "android" : {
+                "permissions" : [
+                    "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.AUTHENTICATE_ACCOUNTS\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.INTERNET\"/>",
+                    "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
+                    "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_SMS\"/>",
+                    "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
+                    "<uses-permission android:name=\"android.permission.REORDER_TASKS\"/>",
+                    "<uses-permission android:name=\"android.permission.SEND_SMS\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_SMS\"/>"
+                ],
+                "autoSdkPermissions" : true
+            },
+            /* ios打包配置 */
+            "ios" : {
+                "privacyDescription" : {
+                    "NSLocationAlwaysAndWhenInUseUsageDescription" : "需要您同意，才能访问位置推荐展示附近用户信息",
+                    "NSCameraUsageDescription" : "需要您同意,才能访问相机：进行人脸识别和拍摄",
+                    "NSMicrophoneUsageDescription" : "您还没有开启麦克风权限，开启后才能正常拍摄视频时录制声音，或者聊天时分享声音",
+                    "NSPhotoLibraryUsageDescription" : "您还没开启照片的读取权限，开启后才能将您的照片或视频导入进行分享",
+                    "NSLocationWhenInUseUsageDescription" : "需要您同意，才能根据位置推荐附近的用户信息",
+                    "NSLocationAlwaysUsageDescription" : "需要您同意，才能持续访问位置展示持续更新用户信息",
+                    "NSPhotoLibraryAddUsageDescription" : "您还没开启照片的存储权限，开启后才能将照片或视频保存到本地",
+                    "NSContactsUsageDescription" : "屏蔽通讯录的好友",
+                    "NSAppleMusicUsageDescription" : "帮助您实现图片和文件的存储读取"
+                }
+            },
+            /* SDK配置 */
+            "sdkConfigs" : {
+                "ad" : {},
+                "maps" : {
+                    "amap" : {
+                        "appkey_ios" : "d3f3c8273b72ac7910cc35428b797ba7",
+                        "appkey_android" : "1ad120950e5df021e430a12309804e1b"
+                    }
+                },
+                "oauth" : {},
+                "payment" : {
+                    "appleiap" : {},
+                    "alipay" : {
+                        "__platform__" : [ "ios", "android" ]
+                    },
+                    "weixin" : {
+                        "__platform__" : [ "ios", "android" ],
+                        "appid" : "wx58234f4fd1afcca0",
+                        "UniversalLinks" : "https://client.yzxnet.com/"
+                    }
+                },
+                "push" : {
+                    "unipush" : {}
+                },
+                "geolocation" : {
+                    "amap" : {
+                        "__platform__" : [ "ios", "android" ],
+                        "appkey_ios" : "d3f3c8273b72ac7910cc35428b797ba7",
+                        "appkey_android" : "1ad120950e5df021e430a12309804e1b"
+                    }
+                },
+                "share" : {
+                    "weixin" : {
+                        "appid" : "wx58234f4fd1afcca0",
+                        "UniversalLinks" : "https://client.yzxnet.com/"
+                    }
+                },
+                "speech" : {
+                    "ifly" : {}
+                }
+            },
+            "splashscreen" : {
+                "androidStyle" : "common",
+                "android" : {
+                    "hdpi" : "unpackage/res/start/startup_01.png",
+                    "xhdpi" : "unpackage/res/start/startup_02.png",
+                    "xxhdpi" : "unpackage/res/start/startup_03.png"
+                },
+                "iosStyle" : "common"
+            },
+            "icons" : {
+                "android" : {
+                    "hdpi" : "unpackage/res/icons/72x72.png",
+                    "xhdpi" : "unpackage/res/icons/96x96.png",
+                    "xxhdpi" : "unpackage/res/icons/144x144.png",
+                    "xxxhdpi" : "unpackage/res/icons/192x192.png"
+                },
+                "ios" : {
+                    "appstore" : "unpackage/res/icons/1024x1024.png",
+                    "ipad" : {
+                        "app" : "unpackage/res/icons/76x76.png",
+                        "app@2x" : "unpackage/res/icons/152x152.png",
+                        "notification" : "unpackage/res/icons/20x20.png",
+                        "notification@2x" : "unpackage/res/icons/40x40.png",
+                        "proapp@2x" : "unpackage/res/icons/167x167.png",
+                        "settings" : "unpackage/res/icons/29x29.png",
+                        "settings@2x" : "unpackage/res/icons/58x58.png",
+                        "spotlight" : "unpackage/res/icons/40x40.png",
+                        "spotlight@2x" : "unpackage/res/icons/80x80.png"
+                    },
+                    "iphone" : {
+                        "app@2x" : "unpackage/res/icons/120x120.png",
+                        "app@3x" : "unpackage/res/icons/180x180.png",
+                        "notification@2x" : "unpackage/res/icons/40x40.png",
+                        "notification@3x" : "unpackage/res/icons/60x60.png",
+                        "settings@2x" : "unpackage/res/icons/58x58.png",
+                        "settings@3x" : "unpackage/res/icons/87x87.png",
+                        "spotlight@2x" : "unpackage/res/icons/80x80.png",
+                        "spotlight@3x" : "unpackage/res/icons/120x120.png"
+                    }
+                }
+            }
+        },
+        "uniStatistics" : {
+            "enable" : true
+        },
+        "nativePlugins" : {
+            "longyoung-BDOCR" : {
+                "__plugin_info__" : {
+                    "name" : "【实惠】百度身份证识别、银行卡识别、车牌识别、文字识别OCR",
+                    "description" : "longyoung出品，如有疑问，关注公众号「longyoung」后台发消息提问。",
+                    "platforms" : "Android,iOS",
+                    "url" : "https://ext.dcloud.net.cn/plugin?id=1189",
+                    "android_package_name" : "com.shiwoaapp.itsme",
+                    "ios_bundle_id" : "com.shiwoaapp.itsme",
+                    "isCloud" : true,
+                    "bought" : 1,
+                    "pid" : "1189",
+                    "parameters" : {}
+                }
+            },
+            "ZD-Iospay" : {
+                "__plugin_info__" : {
+                    "name" : "修复苹果IOS支付",
+                    "description" : "专门用来修复苹果IOS支付时出现\"您已购买此App内购买项目。此项目将免费恢复\"。",
+                    "platforms" : "iOS",
+                    "url" : "https://ext.dcloud.net.cn/plugin?id=521",
+                    "android_package_name" : "com.shiwoaapp.itsme",
+                    "ios_bundle_id" : "com.shiwoaapp.itsme",
+                    "isCloud" : true,
+                    "bought" : 1,
+                    "pid" : "521",
+                    "parameters" : {}
+                }
+            },
+            "longyoung-BDFaceAuth" : {
+                "__plugin_info__" : {
+                    "name" : "【横竖屏后摄】百度人脸识别、活体检测、离线人脸采集",
+                    "description" : "百度免费提供活体检测，关注公众号「longyoung」发消息提问。支持平板横竖屏后摄。",
+                    "platforms" : "Android,iOS",
+                    "url" : "https://ext.dcloud.net.cn/plugin?id=976",
+                    "android_package_name" : "com.shiwoaapp.itsme",
+                    "ios_bundle_id" : "com.shiwoaapp.itsme",
+                    "isCloud" : true,
+                    "bought" : 1,
+                    "pid" : "976",
+                    "parameters" : {}
+                }
+            },
+            "Esand-MNOModule" : {
+                "__plugin_info__" : {
+                    "name" : "Esand-MNOModule",
+                    "description" : "一键登入",
+                    "platforms" : "Android,iOS",
+                    "url" : "",
+                    "android_package_name" : "",
+                    "ios_bundle_id" : "",
+                    "isCloud" : false,
+                    "bought" : -1,
+                    "pid" : "",
+                    "parameters" : {}
+                }
+            }
+        }
+    },
+    /* 快应用特有相关 */
+    "quickapp" : {},
+    /* 小程序特有相关 */
+    "mp-weixin" : {
+        "appid" : "",
+        "setting" : {
+            "urlCheck" : false
+        },
+        "usingComponents" : true,
+        "uniStatistics" : {
+            "enable" : false
+        }
+    },
+    "mp-alipay" : {
+        "usingComponents" : true,
+        "uniStatistics" : {
+            "enable" : false
+        }
+    },
+    "mp-baidu" : {
+        "usingComponents" : true,
+        "uniStatistics" : {
+            "enable" : false
+        }
+    },
+    "mp-toutiao" : {
+        "usingComponents" : true,
+        "uniStatistics" : {
+            "enable" : false
+        }
+    },
+    "uniStatistics" : {
+        "enable" : true
+    },
+    "h5" : {
+        "devServer" : {
+            "port" : 8085, //端口号
+            "disableHostCheck" : true,
+            "proxy" : {
+                "/api" : {
+                    "target" : "https://v2client.shiwoaapp.com", //目标接口域名 https://v2client.shiwoaapp.com   http://192.168.0.108
+                    "changeOrigin" : true, //是否跨域
+                    "secure" : true, // 设置支持https协议的代理
+                    "pathRewrite" : {
+                        "^/api" : "/api"
+                    }
+                },
+                "/addons" : {
+                    "target" : "https://v2client.shiwoaapp.com", //目标接口域名
+                    "changeOrigin" : true, //是否跨域
+                    "secure" : true, // 设置支持https协议的代理
+                    "pathRewrite" : {
+                        "^/addons" : "/addons"
+                    }
+                }
+            }
+        },
+        "uniStatistics" : {
+            "enable" : true
+        }
+    },
+    "mp-qq" : {
+        "uniStatistics" : {
+            "enable" : false
+        }
+    }
+}
+/* SDK配置 */
+

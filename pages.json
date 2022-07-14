@@ -1,0 +1,604 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		// {
+		// 	"path": "pages/index/test",
+		// 	"style": {
+		// 		"navigationBarTitleText": "是我啊",
+		// 		"enablePullDownRefresh": false
+		// 	}
+		// },
+		{
+			"path": "pages/index/first",
+			"style": {
+				"navigationBarTitleText": "是我啊",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "uview-ui/components/u-avatar-cropper/u-avatar-cropper",
+			"style": {
+				"navigationBarTitleText": "头像裁剪",
+				"navigationBarBackgroundColor": "#000000"
+			}
+		},
+		{
+			"path": "pages/itsme/index",
+			"style": {
+				"navigationBarTitleText": "是我",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/itsme/fillInformation",
+			"style": {
+				"navigationBarTitleText": "我的主页",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/meet/index",
+			"style": {
+				"navigationBarTitleText": "遇见",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/message/index",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/task/index",
+			"style": {
+				"navigationBarTitleText": "邀约",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "my",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/discover/discover",
+			"style": {
+				"navigationBarTitleText": "发现",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/exclusive/male",
+			"style": {
+				"navigationBarTitleText": "专属推荐",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+		}
+	],
+	"subPackages": [{
+			"root": "pages/meet",
+			"pages": [{
+					"path": "detail",
+					"style": {
+						"navigationBarTitleText": "详情",
+						"navigationStyle": "custom",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "mylist",
+					"style": {
+						"navigationBarTitleText": "我的动态",
+						"enablePullDownRefresh": true
+					}
+				}
+			]
+		},
+		{
+				"root": "pages/agent",
+				"pages": [{
+						"path": "agent",
+						"style": {
+							"navigationBarTitleText": "经纪人端",
+							"enablePullDownRefresh": true
+						}
+					}
+				]
+			},
+		{
+			"root": "pages/task",
+			"pages": [{
+					"path": "detail",
+					"style": {
+						"navigationBarTitleText": "Me约详情",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "my",
+					"style": {
+						"navigationBarTitleText": "我的Me约",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "mydetail",
+					"style": {
+						"navigationBarTitleText": "我的Me约",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "change",
+					"style": {
+						"navigationBarTitleText": "Me约选人",
+						"navigationStyle": "custom",
+						"enablePullDownRefresh": false
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/login",
+			"pages": [{
+					"path": "index",
+					"style": {
+						"navigationBarTitleText": "登录",
+						"navigationStyle": "custom",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "register",
+					"style": {
+						"navigationBarTitleText": "注册",
+						"navigationStyle": "custom",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "forgetpwd",
+					"style": {
+						"navigationBarTitleText": "修改密码",
+						"navigationStyle": "custom",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "sex",
+					"style": {
+						"navigationBarTitleText": "性别昵称",
+						"navigationStyle": "custom",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "face",
+					"style": {
+						"navigationBarTitleText": "人脸识别",
+						"navigationStyle": "custom",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "protocol",
+					"style": {
+						"navigationBarTitleText": "协议",
+						"navigationStyle": "custom",
+						"enablePullDownRefresh": false
+					}
+				}
+				// {
+				// 	"path": "exclusive",
+				// 	"style": {
+				// 		"navigationBarTitleText": "专用推荐",
+				// 		"navigationStyle": "custom",
+				// 		"enablePullDownRefresh": false
+				// 	}
+				// }
+			]
+		},
+		{
+			"root": "pages/my",
+			"pages": [{
+					"path": "text",
+					"style": {
+						"navigationBarTitleText": "测试",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "lable",
+					"style": {
+						"navigationBarTitleText": "标签",
+						"navigationStyle": "custom",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "share",
+					"style": {
+						"navigationBarTitleText": "分享",
+						"navigationStyle": "custom",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "bindWxCode",
+					"style": {
+						"navigationBarTitleText": "绑定微信",
+						"navigationStyle": "custom",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "wxReport",
+					"style": {
+						"navigationBarTitleText": "举报",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "newgift",
+					"style": {
+						"navigationBarTitleText": "新手礼包",
+						"navigationStyle": "custom",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "cardpack",
+					"style": {
+						"navigationBarTitleText": "卡包",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "commission",
+					"style": {
+						"navigationBarTitleText": "佣金",
+						"navigationStyle": "custom",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "withdrawalRecord",
+					"style": {
+						"navigationBarTitleText": "提现记录",
+						"navigationBarBackgroundColor": "#1A1A1F",
+						"navigationBarTextStyle": "white",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "expect",
+					"style": {
+						"navigationBarTitleText": "期望值",
+						"navigationStyle": "custom",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "profile",
+					"style": {
+						"navigationBarTitleText": "完善资料",
+						"navigationStyle": "custom",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "wallet",
+					"style": {
+						"navigationBarTitleText": "我的钱包",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "myphoto",
+					"style": {
+						"navigationBarTitleText": "我的相册",
+						"navigationStyle": "custom",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "record",
+					"style": {
+						"navigationBarTitleText": "浏览记录",
+						"navigationStyle": "custom",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "prove/index",
+					"style": {
+						"navigationBarTitleText": "女神认证",
+						"navigationStyle": "custom",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "Applyforabroker",
+					"style": {
+						"navigationBarTitleText": "申请经纪人",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "userAgreement",
+					"style": {
+						"navigationBarTitleText": "用户协议",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "privacyagreement",
+					"style": {
+						"navigationBarTitleText": "隐私协议",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "prove/figure",
+					"style": {
+						"navigationBarTitleText": "身材认证",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "prove/occupation",
+					"style": {
+						"navigationBarTitleText": "职业认证",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "member/index",
+					"style": {
+						"navigationBarTitleText": "会员中心",
+						"navigationStyle": "custom",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "member/recharge",
+					"style": {
+						"navigationBarTitleText": "充值",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "setup",
+					"style": {
+						"navigationBarTitleText": "设置",
+						"navigationBarBackgroundColor": "#1A1A1F",
+						"navigationBarTextStyle": "white",
+						"backgroundColor": "#fff",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "black",
+					"style": {
+						"navigationBarTitleText": "黑名单",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "recordingWx",
+					"style": {
+						"navigationBarTitleText": "解锁的微信",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "seeWx",
+					"style": {
+						"navigationBarTitleText": "被查看微信",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "recovery",
+					"style": {
+						"navigationBarTitleText": "礼物回收",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "realname",
+					"style": {
+						"navigationBarTitleText": "实名认证",
+						"navigationBarBackgroundColor": "#1A1A1F",
+						"navigationBarTextStyle": "white",
+						"backgroundColor": "#fff",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "face",
+					"style": {
+						"navigationBarTitleText": "真人认证",
+						"navigationStyle": "custom",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "addbank",
+					"style": {
+						"navigationBarTitleText": "添加账号",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "banklist",
+					"style": {
+						"navigationBarTitleText": "提现账户",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "mylife",
+					"style": {
+						"navigationBarTitleText": "我的动态",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "worthlist",
+					"style": {
+						"navigationBarTitleText": "我的身价值",
+						"navigationStyle": "custom",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "goPublicAccount",
+					"style": {
+						"navigationBarTitleText": "公众号验证",
+						"enablePullDownRefresh": false
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/itsme",
+			"pages": [{
+					"path": "search",
+					"style": {
+						"navigationBarTitleText": "搜索",
+						"navigationStyle": "custom",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "photolist",
+					"style": {
+						"navigationBarTitleText": "用户相册",
+						"navigationStyle": "custom",
+						"enablePullDownRefresh": true
+					}
+				},
+				{
+					"path": "home",
+					"style": {
+						"navigationBarTitleText": "用户主页",
+						"navigationStyle": "custom",
+						"enablePullDownRefresh": true
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/edit",
+			"pages": [{
+					"path": "photo",
+					"style": {
+						"navigationBarTitleText": "发布相册",
+						"navigationStyle": "custom",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "life",
+					"style": {
+						"navigationBarTitleText": "发布动态",
+						"navigationStyle": "custom",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "task",
+					"style": {
+						"navigationBarTitleText": "发布Me约",
+						"navigationStyle": "custom",
+						"enablePullDownRefresh": false
+					}
+				}
+			]
+		},
+		{
+			"root": "pages/message",
+			"pages": [{
+					"path": "chat/private/index",
+					"style": {
+						"navigationBarTitleText": "聊天",
+						"navigationStyle": "custom",
+						"enablePullDownRefresh": true,
+						"app-plus": {
+							"softinputMode": "adjustResize"
+						}
+					}
+				},
+				{
+					"path": "detail",
+					"style": {
+						"navigationBarTitleText": "聊天",
+						"enablePullDownRefresh": true
+					}
+				}
+			]
+		}
+	],
+	"tabBar": {
+		"color": "#505050",
+		"selectedColor": "#D97DB0",
+		// #ifdef  APP-PLUS
+		"borderStyle": "#1A1A1F",
+		// #endif
+		"backgroundColor": "#1A1A1F",
+		"list": [{
+				"pagePath": "pages/itsme/index",
+				"iconPath": "static/tabBar/itsme.png",
+				"selectedIconPath": "static/tabBar/itsme_1.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/discover/discover",
+				"iconPath": "static/tabBar/meet.png",
+				"selectedIconPath": "static/tabBar/meet_1.png",
+				"text": "Me圈"
+			},
+			{
+				"pagePath": "pages/message/index",
+				"iconPath": "static/tabBar/news.png",
+				"selectedIconPath": "static/tabBar/news_1.png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/my/index",
+				"iconPath": "static/tabBar/my.png",
+				"selectedIconPath": "static/tabBar/my_1.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "是我啊",
+		"navigationBarBackgroundColor": "#1A1A1F",
+		"backgroundColor": "#fff"
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}
